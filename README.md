@@ -155,6 +155,7 @@ Per-node helpers: `just k8s-worker-sessions`, `just rack1-tor-a-routes`,
 - [Building Layer 3 Only Baremetal Kubernetes Clusters](https://www.youtube.com/watch?v=7prUnxglfCk&t=4s) — Nokia, KubeCon talk covering BGP-based L3 dual-homing for K8s workers on bare metal
 
 **Project Documentation**
+- [Containerlab](https://containerlab.dev/) — The lab orchestration tool used to deploy this topology
 - [Cilium BGP Control Plane](https://docs.cilium.io/en/stable/network/bgp-toc/index.html) — Cilium's built-in BGP speaker (GoBGP) for advertising Pod CIDRs and LB VIPs
 - [MetalLB BGP Mode](https://metallb.universe.tf/concepts/bgp/) — MetalLB's BGP-based load balancing for bare-metal K8s
 - [FRR-K8s](https://github.com/metallb/frr-k8s) — Kubernetes-native wrapper around FRR; allows multiple actors to share a single FRR instance per node
