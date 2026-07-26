@@ -1,4 +1,4 @@
-# clab-dual-tor-kind
+# k8s-l3-dual-homing-lab
 
 A containerlab lab that proves out **L3 dual-homing for Kubernetes worker nodes**:
 each node eBGP-peers two Top-of-Rack switches (different ASNs), gets an ECMP default,
